@@ -1,0 +1,4 @@
+title: Pibupedia
+baseurl: ""
+url: "https://pibupedia.github.io/"
+include: [_pages]
