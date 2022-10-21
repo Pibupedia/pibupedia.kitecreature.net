@@ -43,7 +43,6 @@ In battle, Kabbu acts as the party's brute force fighter, having the highest bas
 * Under Strike (Obtained in Chapter 4)
 * Heavy Strike (Obtained at Rank 3)
 * Frozen Drill (Obtained at Rank 17)
-
 * Pebble Toss (requires Mighty Pebble Medal)
 * Boulder Toss (requires Mightier Pebble Medal)
 
@@ -63,7 +62,5 @@ In battle, Kabbu acts as the party's brute force fighter, having the highest bas
 2. [Discord Message](https://discord.com/channels/401557298461540354/401560835081633792/623266574823981085) regarding Kabbu's age.
 3. [Reddit AMA comment](https://www.reddit.com/r/NintendoSwitch/comments/gs8xfh/bug_fables_launched_today_on_nintendo_switch_and/fs3wkn6/) regarding Kabbu's theme.
 4. [Reddit AMA comment](https://www.reddit.com/r/gaming/comments/k2uh57/bug_fables_11_has_been_launched_im_genow_the_lead/gdx96j0/) regarding Kabbu's birthday.
-
-
-1. [Discord Messages](https://pbs.twimg.com/media/FaFtor3UYAA42W6?format=jpg&name=large) regarding the meaning of his name.
-2. [Discord Messages](https://pbs.twimg.com/media/FZiE9OwXkAAI9Vl?format=jpg&name=small) regarding on who pays their taxes
+5. [Discord Messages](https://pbs.twimg.com/media/FaFtor3UYAA42W6?format=jpg&name=large) regarding the meaning of his name.
+6. [Discord Messages](https://pbs.twimg.com/media/FZiE9OwXkAAI9Vl?format=jpg&name=small) regarding on who pays their taxes
