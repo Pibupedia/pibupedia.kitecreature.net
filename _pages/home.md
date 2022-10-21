@@ -44,4 +44,4 @@ big_header: true
     <a class='menu__item menu__item--small' href='/skills/'>Skills</a>
     <a class='menu__item menu__item--small' href='/lore-books/'>Lore Books</a>
 </div>
-
+<!-- :} -->
