@@ -4,17 +4,18 @@ layout: default
 permalink: "/"
 big_header: true
 ---
-Welcome to Pibupedia, a fan-created collaborative wiki about the turn based RPG Bug Fables!
+&emsp;Welcome to Pibupedia, a fan-created collaborative wiki about the turn based RPG Bug Fables!  
+&emsp;Keep in mind Pibupedia is still heavily unfinished. Many pages do not exist yet! 
 
 ## Chapters
 <div class="stagger__children--8" style='display: flex;gap: 20px;flex-wrap: wrap;justify-content: center;'>
-<a class="battle__button">1</a>
-<a class="battle__button battle__button--venus">2</a>
-<a class="battle__button battle__button--hive">3</a>
-<a class="battle__button battle__button--sand">4</a>
-<a class="battle__button battle__button--swamp">5</a>
-<a class="battle__button battle__button--fog">6</a>
-<a class="battle__button battle__button--deadlands">7</a>
+<a href="/chapters/1" class="battle__button">1</a>
+<a href="/chapters/2" class="battle__button battle__button--venus">2</a>
+<a href="/chapters/3" class="battle__button battle__button--hive">3</a>
+<a href="/chapters/4" class="battle__button battle__button--sand">4</a>
+<a href="/chapters/5" class="battle__button battle__button--swamp">5</a>
+<a href="/chapters/6" class="battle__button battle__button--fog">6</a>
+<a href="/chapters/7" class="battle__button battle__button--deadlands">7</a>
 </div>
 
 ## Categories
