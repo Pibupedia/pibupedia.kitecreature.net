@@ -11,5 +11,9 @@
             document.getElementById('recent__commits').appendChild(li);
             index++;
         })
+        var a = document.createElement('a');
+        a.href = 'https://github.com/Pibupedia/pibupedia.kitecreature.net/commits/main';
+        a.textContent = 'View All Commits';
+        document.getElementById('recent__commits').appendChild(a);
     });
 })();
