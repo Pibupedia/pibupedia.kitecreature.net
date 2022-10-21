@@ -1,0 +1,181 @@
+---
+---
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+:root{
+    --bg-color: #eadec4
+}
+*{padding:0;margin:0;box-sizing: border-box;}
+html,body{height:100%;}
+body{
+    background:url('/assets/images/leaves.png');
+    background-attachment: fixed;
+    font: 20px 'Bubblegum Sans', sans-serif;
+}
+input, button{font:inherit;}
+li{margin-left:2em;}
+main{
+    display: grid;
+    grid-template-columns: 720px 240px;
+    grid-template-rows: max-content 1fr max-content;
+    grid-template-areas: 
+        "header header"
+        "article aside"
+        "footer aside";
+    max-width: 960px;
+    min-height: 100%;
+    margin: auto;
+    outline: 6px solid black;
+    background: var(--bg-color);
+    overflow: hidden;
+    header{
+        grid-area: header;
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        padding: 20px;
+        background:linear-gradient(#0000, var(--bg-color)), url('/assets/images/hero.jpg') center right;
+        background-size: cover;
+        .logo{
+            display: block;
+            height: 48px;
+            width: auto;
+            img{
+                height: 100%;
+            }
+        }
+        &.big__header{
+           min-height: 320px;
+            .logo{
+                position: absolute;
+                width: 75%;
+		max-width: 480px;
+                height: auto;
+                top: 50%; left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    article{
+        grid-area: article;
+        padding: 20px;
+        .article__heading{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        h2{
+            font-size: 1.75rem;
+            border-bottom: 1px solid;
+            margin-top: 1em;
+            margin-bottom: 10px;
+        }
+        img,p{margin:10px;}
+    }
+    aside{
+        grid-area: aside;
+        font-size: 0.8em;
+    }
+    footer{
+        grid-area: footer;
+    }
+}
+
+.menu__item{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 10px;
+    background: #fffa;
+    border: #888a 3px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+    &.menu__item--small{
+	justify-content: center;
+	font-size: 0.75em;
+        flex:1;
+    }
+    &:hover{
+         background: #e4c000aa;
+    }
+    img{height:1.25em;margin:0;}
+}
+
+.icon__link{
+    padding: 5px;
+    img{height:32px}
+}
+
+.character{float:right;width:200px;}
+
+.bestiary__entry{
+    border:1px solid;
+    font-size: 0.8em;
+    border-image: url('/assets/images/boxes/box4.png') fill 19.5 / 24 round;
+    border-image-outset: 24px;margin: 24px;
+    h3,h4{text-align: center;}
+}
+
+.bestiary__portrait{
+    background: #d9c797;
+    border: 8px solid black;
+    overflow: hidden;
+    border-radius: 8px;
+    aspect-ratio: 1/1;
+    display:grid;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin: 0;
+    }
+}
+
+.battle__button{
+    display: inline-block;
+    min-width: 64px;
+    min-height: 64px;
+    background: url('/assets/images/battle_button.png');
+    background-size: 100% 100% !important;
+    font-size: 24px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    &.battle__button--venus{background: url('/assets/images/battle_button--venus.png');}
+    &.battle__button--hive{background: url('/assets/images/battle_button--hive.png');}
+    &.battle__button--sand{background: url('/assets/images/battle_button--sand.png');}
+    &.battle__button--swamp{background: url('/assets/images/battle_button--swamp.png');}
+    &.battle__button--fog{background: url('/assets/images/battle_button--fog.png');}
+    &.battle__button--deadlands{background: url('/assets/images/battle_button--deadlands.png');}
+}
+
+.stagger__children--8{
+    @for $i from 1 through 8{
+        :nth-child(#{$i}) {
+            rotate: random(20) - 10 + deg;
+	}
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    body{padding:0;}
+    main{
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px;
+        margin:0;
+        aside{
+            display: none;
+        }
+    }
+}
