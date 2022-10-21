@@ -12,6 +12,8 @@ body{
     background-attachment: fixed;
     font: 20px 'Bubblegum Sans', sans-serif;
 }
+input, button{font:inherit;}
+li{margin-left:2em;}
 main{
     display: grid;
     grid-template-columns: 720px 240px;
@@ -94,13 +96,13 @@ main{
     cursor: pointer;
     color: inherit;
     text-decoration: none;
-    &:hover{
-        background: #e4c000aa;
-    }
     &.menu__item--small{
 	justify-content: center;
 	font-size: 0.75em;
         flex:1;
+    }
+    &:hover{
+         background: #e4c000aa;
     }
     img{height:1.25em;margin:0;}
 }

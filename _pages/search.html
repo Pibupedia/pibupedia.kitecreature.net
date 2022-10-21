@@ -1,0 +1,32 @@
+---
+title: "Search"
+layout: default
+permalink: "/search/"
+---
+<form action="/search/" style="padding:10px;display:flex;justify-content:center;gap: 10px;">
+    <input name='q' style='flex:1'>
+    <input type='submit' value='Search'>
+</form>
+
+<div id='results' style='display:flex;flex-direction:column;gap: 10px;'>
+
+</div>
+
+<script>
+(function () {
+    const query = new URLSearchParams(window.location.search);
+    if (!query.get('q')) {return}
+    const searchQuery = query.get('q').toLowerCase()
+    var results = document.getElementById('results');
+    fetch("/pages.json")
+    .then((response) => response.json())
+    .then((data) => {
+        data.forEach((page) => {
+            if (page.title.toLowerCase().includes(searchQuery)) {
+                results.innerHTML+=`<li><a href=${page.url}>${page.title}</a></li>`
+                console.log(page.title)
+            }
+        })
+    })
+})();
+</script>

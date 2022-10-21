@@ -9,13 +9,13 @@ big_header: true
 
 ## Chapters
 <div class="stagger__children--8" style='display: flex;gap: 20px;flex-wrap: wrap;justify-content: center;'>
-<a href="/chapters/1" class="battle__button">1</a>
-<a href="/chapters/2" class="battle__button battle__button--venus">2</a>
-<a href="/chapters/3" class="battle__button battle__button--hive">3</a>
-<a href="/chapters/4" class="battle__button battle__button--sand">4</a>
-<a href="/chapters/5" class="battle__button battle__button--swamp">5</a>
-<a href="/chapters/6" class="battle__button battle__button--fog">6</a>
-<a href="/chapters/7" class="battle__button battle__button--deadlands">7</a>
+<a href="/Chapter_1:_A_Dysfunctional_Trio/" class="battle__button">1</a>
+<a href="/Chapter_2:_Sacred_Golden_Hills/" class="battle__button battle__button--venus">2</a>
+<a href="/Chapter_3:_Factory_Inspection/" class="battle__button battle__button--hive">3</a>
+<a href="/Chapter_4:_Mysterious_Lost_Sands/" class="battle__button battle__button--sand">4</a>
+<a href="/Chapter_5:_The_Far_Wildlands/" class="battle__button battle__button--swamp">5</a>
+<a href="/Chapter_6:_Assault_on_Rubber_Prison/" class="battle__button battle__button--fog">6</a>
+<a href="/Chapter_7:_The_Everlasting_Sapling/" class="battle__button battle__button--deadlands">7</a>
 </div>
 
 ## Categories

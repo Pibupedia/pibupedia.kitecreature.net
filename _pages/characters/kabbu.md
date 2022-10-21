@@ -15,3 +15,4 @@ Base HP: 9
 Base ATK: 2 (Pierces 1 DEF)  
 Base DEF: 0
 </div>
+asdklsadas
