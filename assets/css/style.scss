@@ -1,0 +1,125 @@
+---
+---
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+:root{
+    --bg-color: #eadec4
+}
+*{padding:0;margin:0;box-sizing: border-box;}
+html,body{height:100%;}
+body{
+    background:url('/assets/images/leaves.png');
+    background-attachment: fixed;
+    font: 24px 'Bubblegum Sans', sans-serif;
+    padding: 15px;
+}
+main{
+    max-width: 800px;
+    min-height: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+    background: var(--bg-color);
+    outline: black 10px solid;
+    border-radius: 2px;
+    overflow: hidden;
+    header{
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        padding: 20px;
+        background:linear-gradient(#0000, var(--bg-color)), url('/assets/images/hero.jpg') center right;
+        background-size: cover;
+        .logo{
+            display: block;
+            height: 48px;
+            width: auto;
+            img{
+                height: 100%;
+            }
+        }
+        &.big__header{
+           min-height: 320px;
+            .logo{
+                position: absolute;
+                width: 75%;
+                height: auto;
+                top: 50%; left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    article{
+        padding: 20px;
+        .article__heading{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        h2{
+            font-size: 1.75rem;
+            border-bottom: 1px solid;
+            margin-top: 1em;
+            margin-bottom: 10px;
+        }
+        img,p{margin:10px;}
+    }
+}
+
+.menu__item{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 10px;
+    background: #fffa;
+    border: #888a 3px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover{
+        background: #e4c000aa;
+    }
+    &.menu__item--small{
+        justify-content: center;
+        font-size: 0.75em;
+        flex:1;
+    }
+    img{height:1.25em;margin:0;}
+}
+
+.icon__link{
+    padding: 5px;
+    img{height:32px}
+}
+
+.character{float:right;width:200px;}
+
+.bestiary__entry{
+    border:1px solid;
+    font-size: 0.8em;
+    border-image: url('/assets/images/boxes/box4.png') fill 19.5 / 24 round;
+    border-image-outset: 24px;margin: 24px;
+    h3,h4{text-align: center;}
+}
+
+.bestiary__portrait{
+    background: #d9c797;
+    border: 8px solid black;
+    overflow: hidden;
+    border-radius: 8px;
+    aspect-ratio: 1/1;
+    display:grid;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body{padding:0;}
+    main{border-radius: 0px;margin:0;}
+}

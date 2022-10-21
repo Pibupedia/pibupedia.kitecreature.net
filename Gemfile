@@ -1,3 +1,3 @@
 source "https://rubygems.org"
-gem "jekyll", "~> 4.2.0"
-gem "github-pages", "~> 227", group: :jekyll_plugins
+gem "jekyll"
+gem "jekyll-sass-converter", git: "https://github.com/jekyll/jekyll-sass-converter"

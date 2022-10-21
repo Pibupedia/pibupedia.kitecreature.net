@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <title>Pibupedia - {{ page.title }}</title>
 </head>
 <body>
-    {{ content }}
+    <main>
+        <header {% if page.big_header == true %}class="big__header"{% endif %}>
+            <a href='/' class='logo'>
+                <img src="/assets/images/logo.svg">
+            </a>
+            <span style="margin:auto"></span>
+            <a class="icon__link"><img src="/assets/images/icons/github.png"></a>
+            <a class="icon__link"><img src="/assets/images/icons/discord.png"></a>
+        </header>
+        <article>
+            <div class="article__heading">
+                <h1>{{ page.title }}</h1>
+                <span style="margin:auto"></span>
+                <a class="icon__link"><img src="/assets/images/icons/pencil.png"></a>
+            </div>
+            {{ content }}
+            {% if page.comments == true %}
+            <br style="clear:both">
+            <h2>Comments</h2>
+            <script src="https://utteranc.es/client.js"
+                repo="Pibupedia/pibupedia.github.io"
+                issue-term="pathname"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+            </script>
+            {% endif %}
+        </article>
+        <footer>
+        </footer>
+    </main>
 </body>
 </html>
