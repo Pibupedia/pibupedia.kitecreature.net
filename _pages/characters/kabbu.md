@@ -3,6 +3,7 @@ title: "Kabbu"
 layout: default
 permalink: "/Kabbu/"
 comments: true
+thumbnail: "/assets/images/kabbu.png"
 ---
 <div class='character bestiary__entry' markdown=1>
 ### Kabbu
