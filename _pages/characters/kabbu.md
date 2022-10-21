@@ -1,7 +1,7 @@
 ---
 title: "Kabbu"
 layout: default
-permalink: "/Kabbu"
+permalink: "/Kabbu/"
 comments: true
 ---
 <div class='character bestiary__entry' markdown=1>
