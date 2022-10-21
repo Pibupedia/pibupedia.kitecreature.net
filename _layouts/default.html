@@ -7,6 +7,13 @@
     <link href="/assets/css/style.css" rel="stylesheet">
     <title>Pibupedia - {{ page.title }}</title>
     <script defer src="/assets/js/listcommits.js"></script>
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:site_name" content="Pibupedia">
+    {% if page.thumbnail %}
+        <meta property="og:image" content="{{ page.thumbnail }}">
+    {% endif %}
 </head>
 <body>
     <main>
