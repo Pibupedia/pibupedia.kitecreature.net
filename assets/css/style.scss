@@ -14,7 +14,14 @@ body{
     padding: 15px;
 }
 main{
-    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 240px;
+    grid-template-rows: max-content 1fr max-content;
+    grid-template-areas: 
+        "header header"
+        "article aside"
+        "footer aside";
+    max-width: 1024px;
     min-height: 100%;
     margin: auto;
     margin-bottom: 15px;
@@ -23,6 +30,7 @@ main{
     border-radius: 2px;
     overflow: hidden;
     header{
+        grid-area: header;
         position: relative;
         display: flex;
         align-items: flex-start;
@@ -49,6 +57,7 @@ main{
         }
     }
     article{
+        grid-area: article;
         padding: 20px;
         .article__heading{
             display: flex;
@@ -66,6 +75,13 @@ main{
             margin-bottom: 10px;
         }
         img,p{margin:10px;}
+    }
+    aside{
+        grid-area: aside;
+        font-size: 0.8em;
+    }
+    footer{
+        grid-area: footer;
     }
 }
 
