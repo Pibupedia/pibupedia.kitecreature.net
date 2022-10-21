@@ -11,7 +11,6 @@ body{
     background:url('/assets/images/leaves.png');
     background-attachment: fixed;
     font: 24px 'Bubblegum Sans', sans-serif;
-    padding: 15px;
 }
 main{
     display: grid;
@@ -24,7 +23,6 @@ main{
     max-width: 1024px;
     min-height: 100%;
     margin: auto;
-    margin-bottom: 15px;
     background: var(--bg-color);
     outline: black 10px solid;
     border-radius: 2px;
@@ -135,7 +133,15 @@ main{
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
     body{padding:0;}
-    main{border-radius: 0px;margin:0;}
+    main{
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px;
+        margin:0;
+        aside{
+            display: none;
+        }
+    }
 }
