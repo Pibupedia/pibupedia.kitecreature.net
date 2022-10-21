@@ -15,14 +15,14 @@
                 <img src="/assets/images/logo.svg" alt="Pibupedia">
             </a>
             <span style="margin:auto"></span>
-            <a class="icon__link" href="https://github.com/Pibupedia/pibupedia.github.io"><img src="/assets/images/icons/github.png" alt="Github"></a>
+            <a class="icon__link" href="{{site.github}}"><img src="/assets/images/icons/github.png" alt="Github"></a>
             <a class="icon__link" href="https://discord.com/invite/jzE5AJZ"><img src="/assets/images/icons/discord.png" alt="Discord"></a>
         </header>
         <article>
             <div class="article__heading">
                 <h1>{{ page.title }}</h1>
                 <span style="margin:auto"></span>
-                <a href="{{site.github}}tree/main/{{ page.path }}" class="icon__link"><img src="/assets/images/icons/pencil.png" alt="Edit Page"></a>
+                <a href="{{site.github}}edit/main/{{ page.path }}" class="icon__link"><img src="/assets/images/icons/pencil.png" alt="Edit Page"></a>
             </div>
             {{ content }}
             {% if page.comments == true %}
