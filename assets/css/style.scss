@@ -10,7 +10,7 @@ html,body{height:100%;}
 body{
     background:url('/assets/images/leaves.png');
     background-attachment: fixed;
-    font: 24px 'Bubblegum Sans', sans-serif;
+    font: 20px 'Bubblegum Sans', sans-serif;
 }
 main{
     display: grid;
@@ -20,12 +20,11 @@ main{
         "header header"
         "article aside"
         "footer aside";
-    max-width: 1024px;
+    max-width: 960px;
     min-height: 100%;
     margin: auto;
+    outline: 6px solid black;
     background: var(--bg-color);
-    outline: black 10px solid;
-    border-radius: 2px;
     overflow: hidden;
     header{
         grid-area: header;
@@ -48,6 +47,7 @@ main{
             .logo{
                 position: absolute;
                 width: 75%;
+		max-width: 480px;
                 height: auto;
                 top: 50%; left: 50%;
                 transform: translate(-50%, -50%);
@@ -96,8 +96,8 @@ main{
         background: #e4c000aa;
     }
     &.menu__item--small{
-        justify-content: center;
-        font-size: 0.75em;
+	justify-content: center;
+	font-size: 0.75em;
         flex:1;
     }
     img{height:1.25em;margin:0;}
