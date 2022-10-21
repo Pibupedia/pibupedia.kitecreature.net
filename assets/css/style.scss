@@ -148,6 +148,7 @@ main{
     justify-content: center;
     cursor: pointer;
     text-decoration: none;
+    color: black;
     &.battle__button--venus{background: url('/assets/images/battle_button--venus.png');}
     &.battle__button--hive{background: url('/assets/images/battle_button--hive.png');}
     &.battle__button--sand{background: url('/assets/images/battle_button--sand.png');}
