@@ -17,16 +17,16 @@ Base ATK: 2 (Pierces 1 DEF)
 Base DEF: 0
 </div>
 
-**Kabbu** is one of the three protagonists in Bug Fables: The Everlasting Sapling. He is the initial member of the party, and thus the leader of Team Snakemouth. As such it can be argued that he is the main protagonist.
+**Kabbu** is one of the three protagonists in [Bug Fables: The Everlasting Sapling.](/Bug_Fables:_The_Everlasting_Sapling/) He is the initial member of the party, and thus the leader of [Team Snakemouth](/Team_Snakemouth/). As such it can be argued that he is the main protagonist.
 
 ## History
-Kabbu is a beetle that traveled to Bugaria from the Northern Lands. During this journey, he met many hardships. Kabbu moved to Bugaria one moon prior to the events of the game. Before meeting Vi at the Explorers' Association at the start of the game, Kabbu had a brief stay in Defiant Root, where he met Mayor and Professor Neolith. 
+Kabbu is a beetle that traveled to Bugaria from the Northern Lands. During this journey, he met many hardships. Kabbu moved to Bugaria one moon prior to the events of the game. Before meeting Vi at the Explorers' Association at the start of the game, Kabbu had a brief stay in [Defiant Root](/Defiant_Root/), where he met [Mayor](/Mayor/) and [Professor Neolith](/Professor_Neolith/). 
 
 ## Appearance
 As he is the only rainbow scarab beetle to appear in the game, it is unknown how many similarities he has to the rest of his species. He is primarily emerald green with a grey torso and large dark green wings that he uses mainly as a cape. On his shoulders are a pair of white pincers and atop his head is a large green horn.
 
 ## Personality
-Kabbu is level-headed, chivalrous and brave while also acting as a selfless friend. As a "Veteran of the North", he is knowledgeable in combat and survival skills, which helped him in his travel to Bugaria before meeting Vi. He is also shown to be extremely loyal to those he cares about, as he traveled all the way to Bugaria to fulfill a promise he made to someone. Despite his good heart and intentions, he is quite talkative to the point where Vi has to ask him to stop from time to time. Regardless, he is respected by his teammates and is proud of his position as the leader of Team Snakemouth.
+Kabbu is level-headed, chivalrous and brave while also acting as a selfless friend. As a "Veteran of the North", he is knowledgeable in combat and survival skills, which helped him in his travel to [Bugaria](/Bugaria/) before meeting [Vi](/Vi/). He is also shown to be extremely loyal to those he cares about, as he traveled all the way to Bugaria to fulfill a promise he made to someone. Despite his good heart and intentions, he is quite talkative to the point where [Vi](/Vi/) has to ask him to stop from time to time. Regardless, he is respected by his teammates and is proud of his position as the leader of [Team Snakemouth](/Team_Snakemouth/).
 
 
 In truth, what appears to be a brave and loyal beetle willing to help people at no cost, lies within a broken soul, hiding a heavy burden that weighs on his shoulders. This can be hinted with a feeling of sadness when he is the only one in the team to be in an awkward situation, or a feeling of distress when one of his friends is put in critical danger. But overall, Kabbu remains one of the most courageous and kind-hearted members of the team with a strong will to help other people in his surroundings, even if it's only for the good cause. 
@@ -38,14 +38,14 @@ In battle, Kabbu acts as the party's brute force fighter, having the highest bas
 
 ## Skills
 
-* Taunt (starting skill)
-* Pep Talk (Obtained in Chapter 2)
-* Dash Through (Obtained in Chapter 3)
-* Under Strike (Obtained in Chapter 4)
-* Heavy Strike (Obtained at Rank 3)
-* Frozen Drill (Obtained at Rank 17)
-* Pebble Toss (requires Mighty Pebble Medal)
-* Boulder Toss (requires Mightier Pebble Medal)
+* [Taunt](/Skills/) (starting skill)
+* [Pep Talk](/Skills/) (Obtained in Chapter 2)
+* [Dash Through](/Skills/) (Obtained in Chapter 3)
+* [Under Strike](/Skills/) (Obtained in Chapter 4)
+* [Heavy Strike](/Skills/) (Obtained at Rank 3)
+* [Frozen Drill](/Skills/) (Obtained at Rank 17)
+* [Pebble Toss](/Skills/) (requires [Mighty Pebble](/Mighty_Pebble/) Medal)
+* [Boulder Toss](/Skills/) (requires [Mightier Pebble](/Mightier_Pebble/) Medal)
 
 ## Trivia
 * Prior to v0.5, Kabbu's name was Beetle.
